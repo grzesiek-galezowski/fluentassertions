@@ -54,7 +54,7 @@ class Build : NukeBuild
     [Solution(GenerateProjects = true)]
     readonly Solution Solution;
 
-    [GitVersion(Framework = "net6.0")]
+    [GitVersion(Framework = "net8.0")]
     readonly GitVersion GitVersion;
 
     [GitRepository]
@@ -249,7 +249,7 @@ class Build : NukeBuild
         .Executes(() =>
         {
             ReportGenerator(s => s
-                .SetProcessToolPath(NuGetToolPathResolver.GetPackageExecutable("ReportGenerator", "ReportGenerator.dll", framework: "net6.0"))
+                .SetProcessToolPath(NuGetToolPathResolver.GetPackageExecutable("ReportGenerator", "ReportGenerator.dll", framework: "net8.0"))
                 .SetTargetDirectory(TestResultsDirectory / "reports")
                 .AddReports(TestResultsDirectory / "**/coverage.cobertura.xml")
                 .AddReportTypes(

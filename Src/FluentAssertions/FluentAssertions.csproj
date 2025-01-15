@@ -2,7 +2,7 @@
 
   <!-- To reduce build times, we only enable analyzers for the newest TFM -->
   <PropertyGroup>
-    <TargetFrameworks>net47;net6.0;netstandard2.0;netstandard2.1</TargetFrameworks>
+    <TargetFrameworks>net8.0</TargetFrameworks>
     <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>FluentAssertions.snk</AssemblyOriginatorKeyFile>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
@@ -64,51 +64,12 @@
   </ItemGroup>
 
   <!-- Target framework dependent configuration -->
-  <Choose>
-    <When Condition="'$(TargetFramework)' == 'net6.0'">
       <ItemGroup>
         <Compile Remove="Common/NullConfigurationStore.cs" />
         <Compile Remove="StringBuilderExtensions.cs" />
         <Compile Remove="SystemExtensions.cs" />
       </ItemGroup>
       <ItemGroup>
-        <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0" />
+        <PackageReference Include="System.Configuration.ConfigurationManager" Version="8.0.1" />
       </ItemGroup>
-    </When>
-    <When Condition="'$(TargetFramework)' == 'netstandard2.1'">
-      <ItemGroup>
-        <Compile Remove="Common/AppSettingsConfigurationStore.cs" />
-        <Compile Remove="Common/ConfigurationStoreExceptionInterceptor.cs" />
-        <Compile Remove="SystemExtensions.cs" />
-      </ItemGroup>
-    </When>
-    <When Condition="'$(TargetFramework)' == 'netstandard2.0'">
-      <ItemGroup>
-        <Compile Remove="Common/AppSettingsConfigurationStore.cs" />
-        <Compile Remove="Common/ConfigurationStoreExceptionInterceptor.cs" />
-        <Compile Remove="Events/*.cs" />
-        <Compile Remove="EventRaisingExtensions.cs" />
-      </ItemGroup>
-      <ItemGroup>
-        <PackageReference Include="System.Threading.Tasks.Extensions" Version="4.5.4" />
-      </ItemGroup>
-    </When>
-    <When Condition="'$(TargetFramework)' == 'net47'">
-      <ItemGroup>
-        <Compile Remove="Common/NullConfigurationStore.cs" />
-      </ItemGroup>
-      <ItemGroup>
-        <PackageReference Include="System.Threading.Tasks.Extensions" Version="4.5.4" />
-        <TfmSpecificFrameworkAssemblyReferences Include="System.Net.Http">
-          <TargetFramework>$(TargetFramework)</TargetFramework>
-        </TfmSpecificFrameworkAssemblyReferences>
-        <Reference Include="System.Net.Http" />
-        <Reference Include="System.Configuration" />
-        <Reference Include="System.Data" />
-        <Reference Include="System.Xml" />
-        <Reference Include="System.Xml.Linq" />
-      </ItemGroup>
-    </When>
-  </Choose>
-
 </Project>

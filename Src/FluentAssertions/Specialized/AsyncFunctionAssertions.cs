@@ -5,6 +5,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using FluentAssertions.Common;
 using FluentAssertions.Execution;
+using ITimer = FluentAssertions.Common.ITimer;
 
 namespace FluentAssertions.Specialized;
 
@@ -457,7 +458,7 @@ public class AsyncFunctionAssertions<TTask, TAssertions> : DelegateAssertionsBas
         }
 
         // The monitored task is completed, we shall cancel the clock.
-        delayCancellationTokenSource.Cancel();
+        await delayCancellationTokenSource.CancelAsync();
         return true;
     }
 

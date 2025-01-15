@@ -146,7 +146,9 @@ public static class ObjectAssertionsExtensions
     {
         using var stream = new MemoryStream();
 
+#pragma warning disable SYSLIB0011 //bug
         var binaryFormatter = new BinaryFormatter
+#pragma warning restore SYSLIB0011
         {
             Binder = new SimpleBinder(subject.GetType())
         };

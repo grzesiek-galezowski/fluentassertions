@@ -4,6 +4,7 @@ using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Jobs;
 using FluentAssertions;
 using FluentAssertions.Collections;
+#pragma warning disable CA1305
 
 namespace Benchmarks;
 

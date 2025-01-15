@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net6;net472</TargetFrameworks>
+    <TargetFrameworks>net8.0</TargetFrameworks>
     <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>..\..\Src\FluentAssertions\FluentAssertions.snk</AssemblyOriginatorKeyFile>
     <OutputType>Exe</OutputType>
@@ -12,11 +12,5 @@
     <PackageReference Include="BenchmarkDotNet" Version="0.14.0" />
     <PackageReference Include="Bogus" Version="35.6.1" />
     <PackageReference Include="System.Collections" Version="4.3.0" />
-    <!-- Resolve MSB3277 -->
-    <PackageReference Include="System.Reflection.Metadata" Version="8.0.0" Condition="'$(TargetFramework)' == 'net472'" />
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="System.Data.DataSetExtensions" Condition="'$(TargetFramework)' == 'net472'" />
-    <Reference Include="System.Net.Http" Condition="'$(TargetFramework)' == 'net472'" />
   </ItemGroup>
 </Project>

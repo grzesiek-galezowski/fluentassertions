@@ -3308,7 +3308,7 @@ public class GenericCollectionAssertions<TCollection, T, TAssertions> : Referenc
         }
 
         return new AndConstraint<SubsequentOrderingAssertions<T>>(
-            new SubsequentOrderingAssertions<T>(Subject, Enumerable.Empty<T>().OrderBy(x => x)));
+            new SubsequentOrderingAssertions<T>(Subject, Enumerable.Empty<T>().Order()));
     }
 
     internal virtual IOrderedEnumerable<T> GetOrderedEnumerable<TSelector>(
@@ -3552,7 +3552,7 @@ public class GenericCollectionAssertions<TCollection, T, TAssertions> : Referenc
             .ForCondition(Subject is not null)
             .FailWith($"Expected {{context:collection}} to be in {sortOrder} order{{reason}}, but found <null>.");
 
-        IOrderedEnumerable<T> ordering = new List<T>(0).OrderBy(x => x);
+        IOrderedEnumerable<T> ordering = new List<T>(0).Order();
 
         if (success)
         {
@@ -3576,7 +3576,7 @@ public class GenericCollectionAssertions<TCollection, T, TAssertions> : Referenc
                             actualItems, index);
 
                     return new AndConstraint<SubsequentOrderingAssertions<T>>(
-                        new SubsequentOrderingAssertions<T>(Subject, Enumerable.Empty<T>().OrderBy(x => x)));
+                        new SubsequentOrderingAssertions<T>(Subject, Enumerable.Empty<T>().Order()));
                 }
             }
         }
