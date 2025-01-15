@@ -13,4 +13,10 @@
     <PackageReference Include="Bogus" Version="35.6.1" />
     <PackageReference Include="System.Collections" Version="4.3.0" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Update="Meziantou.Analyzer" Version="2.0.186">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
 </Project>
