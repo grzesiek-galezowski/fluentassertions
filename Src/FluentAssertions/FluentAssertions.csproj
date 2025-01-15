@@ -70,10 +70,14 @@
         <Compile Remove="SystemExtensions.cs" />
       </ItemGroup>
       <ItemGroup>
-        <PackageReference Include="System.Configuration.ConfigurationManager" Version="8.0.1" />
+        <PackageReference Include="System.Configuration.ConfigurationManager" Version="9.0.1" />
       </ItemGroup>
       <ItemGroup>
         <PackageReference Update="Meziantou.Analyzer" Version="2.0.186">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Update="Roslynator.Analyzers" Version="4.12.10">
           <PrivateAssets>all</PrivateAssets>
           <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
