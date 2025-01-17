@@ -2,7 +2,7 @@
 using System.Linq.Expressions;
 using System.Reflection;
 using FluentAssertions.Common;
-using FluentAssertions.Execution;
+using FluentAssertions.Equivalency.Execution;
 using Xunit;
 using Xunit.Sdk;
 

@@ -1,10 +1,10 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Linq;
+using FluentAssertions.Equivalency.Execution;
+using FluentAssertions.Equivalency.Formatting;
 using FluentAssertions.Events;
-using FluentAssertions.Execution;
 using FluentAssertions.Extensions;
-using FluentAssertions.Formatting;
 using Xunit;
 using Xunit.Sdk;
 #if NETFRAMEWORK

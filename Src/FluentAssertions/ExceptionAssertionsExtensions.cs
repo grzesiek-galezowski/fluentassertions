@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-using FluentAssertions.Execution;
+using FluentAssertions.Equivalency.Execution;
 using FluentAssertions.Specialized;
 
 namespace FluentAssertions;

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using FluentAssertions;
 using FluentAssertions.Equivalency;
-using FluentAssertions.Execution;
+using FluentAssertions.Equivalency.Execution;
 using FluentAssertions.Extensions;
 using Xunit;
 using Xunit.Sdk;

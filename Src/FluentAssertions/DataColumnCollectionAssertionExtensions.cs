@@ -3,7 +3,7 @@ using System.Data;
 using System.Linq;
 using FluentAssertions.Collections;
 using FluentAssertions.Common;
-using FluentAssertions.Execution;
+using FluentAssertions.Equivalency.Execution;
 
 namespace FluentAssertions;
 

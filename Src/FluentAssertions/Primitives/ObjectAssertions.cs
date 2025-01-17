@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using FluentAssertions.Common;
 using FluentAssertions.Equivalency;
-using FluentAssertions.Execution;
+using FluentAssertions.Equivalency.Execution;
 
 namespace FluentAssertions.Primitives;
 

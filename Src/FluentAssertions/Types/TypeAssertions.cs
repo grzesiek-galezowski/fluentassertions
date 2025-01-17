@@ -5,7 +5,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 using FluentAssertions.Common;
-using FluentAssertions.Execution;
+using FluentAssertions.Equivalency.Execution;
 using FluentAssertions.Primitives;
 
 namespace FluentAssertions.Types;

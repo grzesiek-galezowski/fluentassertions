@@ -2,7 +2,7 @@ using System;
 using System.Diagnostics;
 using System.Reflection;
 using FluentAssertions.Common;
-using FluentAssertions.Execution;
+using FluentAssertions.Equivalency.Execution;
 
 namespace FluentAssertions.Types;
 

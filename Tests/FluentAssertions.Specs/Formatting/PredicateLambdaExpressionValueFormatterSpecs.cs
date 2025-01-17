@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Linq.Expressions;
-using FluentAssertions.Formatting;
+using FluentAssertions.Equivalency.Formatting;
 using Xunit;
 using Xunit.Sdk;
 

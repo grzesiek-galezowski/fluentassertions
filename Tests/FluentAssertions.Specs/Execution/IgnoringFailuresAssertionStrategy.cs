@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using FluentAssertions.Execution;
+using FluentAssertions.Equivalency.Execution;
 
 namespace FluentAssertions.Specs.Execution;
 

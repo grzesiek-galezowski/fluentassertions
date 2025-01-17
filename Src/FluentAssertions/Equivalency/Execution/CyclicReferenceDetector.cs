@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using FluentAssertions.Execution;
 
 namespace FluentAssertions.Equivalency.Execution;
 

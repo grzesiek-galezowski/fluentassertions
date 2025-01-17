@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using FluentAssertions.Common;
-using FluentAssertions.Execution;
+using FluentAssertions.Equivalency.Execution;
 
 namespace FluentAssertions.Specialized;
 

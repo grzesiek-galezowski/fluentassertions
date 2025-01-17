@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Immutable;
 using System.Linq;
-using FluentAssertions.Execution;
+using FluentAssertions.Equivalency.Execution;
 using Xunit;
 using Xunit.Sdk;
 

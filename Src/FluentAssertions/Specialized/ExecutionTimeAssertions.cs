@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 using FluentAssertions.Common;
-using FluentAssertions.Execution;
+using FluentAssertions.Equivalency.Execution;
 
 namespace FluentAssertions.Specialized;
 

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Text.RegularExpressions;
-using FluentAssertions.Execution;
+using FluentAssertions.Equivalency.Execution;
 using Xunit;
 using Xunit.Sdk;
 

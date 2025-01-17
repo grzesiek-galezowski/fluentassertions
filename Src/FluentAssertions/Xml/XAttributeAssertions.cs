@@ -1,6 +1,6 @@
 using System.Diagnostics;
 using System.Xml.Linq;
-using FluentAssertions.Execution;
+using FluentAssertions.Equivalency.Execution;
 using FluentAssertions.Primitives;
 
 namespace FluentAssertions.Xml;

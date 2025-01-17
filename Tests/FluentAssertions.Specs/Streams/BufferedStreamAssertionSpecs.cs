@@ -1,7 +1,7 @@
-﻿#if NET6_0_OR_GREATER || NETSTANDARD2_1
+﻿using FluentAssertions.Equivalency.Execution;
+#if NET6_0_OR_GREATER || NETSTANDARD2_1
 using System;
 using System.IO;
-using FluentAssertions.Execution;
 using Xunit;
 using Xunit.Sdk;
 #endif

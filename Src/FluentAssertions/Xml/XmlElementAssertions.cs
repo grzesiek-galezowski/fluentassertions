@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using System.Xml;
 using FluentAssertions.Common;
-using FluentAssertions.Execution;
+using FluentAssertions.Equivalency.Execution;
 
 namespace FluentAssertions.Xml;
 

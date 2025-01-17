@@ -7,7 +7,7 @@ using System.Xml.Schema;
 using System.Xml.Serialization;
 using AssemblyA;
 using AssemblyB;
-using FluentAssertions.Execution;
+using FluentAssertions.Equivalency.Execution;
 using FluentAssertions.Extensions;
 using FluentAssertions.Primitives;
 using JetBrains.Annotations;

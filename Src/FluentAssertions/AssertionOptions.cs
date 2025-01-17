@@ -1,7 +1,7 @@
 ﻿using System;
 using FluentAssertions.Common;
 using FluentAssertions.Equivalency;
-using FluentAssertions.Formatting;
+using FluentAssertions.Equivalency.Formatting;
 
 namespace FluentAssertions;
 

@@ -3,7 +3,7 @@ using FluentAssertions.Specs.Common;
 #endif
 using System;
 using System.Threading.Tasks;
-using FluentAssertions.Execution;
+using FluentAssertions.Equivalency.Execution;
 using FluentAssertions.Extensions;
 using FluentAssertions.Specs.Exceptions;
 using Xunit;

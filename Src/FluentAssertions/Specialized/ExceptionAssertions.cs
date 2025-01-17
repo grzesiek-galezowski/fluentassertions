@@ -4,9 +4,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Linq.Expressions;
 using FluentAssertions.Common;
+using FluentAssertions.Equivalency.Execution;
+using FluentAssertions.Equivalency.Formatting;
 using FluentAssertions.Equivalency.Steps;
-using FluentAssertions.Execution;
-using FluentAssertions.Formatting;
 using FluentAssertions.Primitives;
 
 namespace FluentAssertions.Specialized;

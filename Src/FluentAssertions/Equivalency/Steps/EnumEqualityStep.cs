@@ -2,7 +2,7 @@
 
 using System;
 using System.Globalization;
-using FluentAssertions.Execution;
+using FluentAssertions.Equivalency.Execution;
 
 #endregion
 

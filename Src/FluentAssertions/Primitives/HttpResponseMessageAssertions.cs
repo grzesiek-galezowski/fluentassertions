@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using System.Net;
 using System.Net.Http;
-using FluentAssertions.Execution;
+using FluentAssertions.Equivalency.Execution;
 
 namespace FluentAssertions.Primitives;
 

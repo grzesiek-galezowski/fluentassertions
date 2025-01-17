@@ -1,5 +1,5 @@
 ﻿using System;
-using FluentAssertions.Execution;
+using FluentAssertions.Equivalency.Execution;
 using FluentAssertions.Primitives;
 using Xunit;
 using Xunit.Sdk;

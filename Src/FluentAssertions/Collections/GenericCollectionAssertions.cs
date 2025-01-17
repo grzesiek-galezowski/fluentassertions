@@ -9,8 +9,9 @@ using System.Linq.Expressions;
 using FluentAssertions.Collections.MaximumMatching;
 using FluentAssertions.Common;
 using FluentAssertions.Equivalency;
+using FluentAssertions.Equivalency.Execution;
+using FluentAssertions.Equivalency.Formatting;
 using FluentAssertions.Execution;
-using FluentAssertions.Formatting;
 using FluentAssertions.Primitives;
 
 namespace FluentAssertions.Collections;

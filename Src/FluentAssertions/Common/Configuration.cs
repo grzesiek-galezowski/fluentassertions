@@ -1,5 +1,5 @@
 ﻿using System;
-using FluentAssertions.Formatting;
+using FluentAssertions.Equivalency.Formatting;
 
 namespace FluentAssertions.Common;
 

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
+using FluentAssertions.Equivalency.Formatting;
 using FluentAssertions.Extensions;
-using FluentAssertions.Formatting;
 using Xunit;
 
 namespace FluentAssertions.Specs.Formatting;

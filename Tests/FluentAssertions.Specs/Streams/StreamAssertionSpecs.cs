@@ -1,6 +1,6 @@
 ﻿using System;
 using System.IO;
-using FluentAssertions.Execution;
+using FluentAssertions.Equivalency.Execution;
 using Xunit;
 using Xunit.Sdk;
 

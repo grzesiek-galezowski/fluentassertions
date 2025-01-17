@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-using FluentAssertions.Execution;
+using FluentAssertions.Equivalency.Execution;
 using FluentAssertions.Extensions;
 using FluentAssertions.Primitives;
 using Xunit;

@@ -3,8 +3,8 @@ using System.Data;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
-using FluentAssertions.Execution;
-using FluentAssertions.Formatting;
+using FluentAssertions.Equivalency.Execution;
+using FluentAssertions.Equivalency.Formatting;
 
 namespace FluentAssertions.Equivalency.Steps;
 

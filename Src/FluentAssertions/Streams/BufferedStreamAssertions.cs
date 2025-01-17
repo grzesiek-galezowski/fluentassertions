@@ -1,7 +1,8 @@
 ﻿using System.Diagnostics;
 using System.IO;
+using FluentAssertions.Equivalency.Execution;
+
 #if NET6_0_OR_GREATER || NETSTANDARD2_1
-using FluentAssertions.Execution;
 #endif
 
 namespace FluentAssertions.Streams;

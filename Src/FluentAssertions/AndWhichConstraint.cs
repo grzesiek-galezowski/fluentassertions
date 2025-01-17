@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using FluentAssertions.Common;
-using FluentAssertions.Formatting;
+using FluentAssertions.Equivalency.Formatting;
 
 namespace FluentAssertions;
 

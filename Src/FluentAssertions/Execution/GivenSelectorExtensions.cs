@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using FluentAssertions.Common;
+using FluentAssertions.Equivalency.Execution;
 
 namespace FluentAssertions.Execution;
 

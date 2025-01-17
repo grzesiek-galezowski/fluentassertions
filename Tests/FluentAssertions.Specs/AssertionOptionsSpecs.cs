@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Chill;
 using FluentAssertions.Equivalency;
+using FluentAssertions.Equivalency.Execution;
+using FluentAssertions.Equivalency.Formatting;
 using FluentAssertions.Equivalency.Steps;
-using FluentAssertions.Execution;
-using FluentAssertions.Formatting;
 using Xunit;
 using Xunit.Sdk;
 

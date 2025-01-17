@@ -2,7 +2,6 @@ using System;
 using System.Linq.Expressions;
 using FluentAssertions.Common;
 using FluentAssertions.Equivalency.Execution;
-using FluentAssertions.Execution;
 
 namespace FluentAssertions.Equivalency.Steps;
 

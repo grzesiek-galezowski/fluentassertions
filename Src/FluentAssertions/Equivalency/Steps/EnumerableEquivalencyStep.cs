@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 using System.Linq;
-using FluentAssertions.Execution;
+using FluentAssertions.Equivalency.Execution;
 
 namespace FluentAssertions.Equivalency.Steps;
 

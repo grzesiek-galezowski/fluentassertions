@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 using System.Text.RegularExpressions;
-using FluentAssertions.Formatting;
+using FluentAssertions.Equivalency.Formatting;
 
 namespace FluentAssertions.Common;
 

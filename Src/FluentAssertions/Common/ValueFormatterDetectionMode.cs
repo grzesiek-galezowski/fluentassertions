@@ -1,7 +1,7 @@
 ﻿namespace FluentAssertions.Common;
 
 /// <summary>
-/// Defines the modes in which custom implementations of <see cref="FluentAssertions.Formatting.IValueFormatter"/>
+/// Defines the modes in which custom implementations of <see cref="Equivalency.Formatting.IValueFormatter"/>
 /// are detected as configured through <see cref="Configuration.ValueFormatterDetectionMode"/>.
 /// </summary>
 public enum ValueFormatterDetectionMode

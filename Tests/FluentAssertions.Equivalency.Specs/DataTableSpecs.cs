@@ -3,7 +3,7 @@ using System.Data;
 using System.Globalization;
 using System.Linq;
 using FluentAssertions.Data;
-using FluentAssertions.Execution;
+using FluentAssertions.Equivalency.Execution;
 using Xunit;
 using Xunit.Sdk;
 

@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.Diagnostics;
 using FluentAssertions.Common;
-using FluentAssertions.Execution;
+using FluentAssertions.Equivalency.Execution;
 
 namespace FluentAssertions.Primitives;
 

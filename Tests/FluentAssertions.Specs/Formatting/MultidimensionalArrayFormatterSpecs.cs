@@ -1,5 +1,5 @@
 ﻿using System;
-using FluentAssertions.Formatting;
+using FluentAssertions.Equivalency.Formatting;
 using Xunit;
 
 namespace FluentAssertions.Specs.Formatting;

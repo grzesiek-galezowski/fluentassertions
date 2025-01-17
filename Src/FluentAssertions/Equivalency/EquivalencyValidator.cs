@@ -1,6 +1,6 @@
 using System;
+using FluentAssertions.Equivalency.Execution;
 using FluentAssertions.Equivalency.Tracing;
-using FluentAssertions.Execution;
 
 namespace FluentAssertions.Equivalency;
 

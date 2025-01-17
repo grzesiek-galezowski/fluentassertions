@@ -2,7 +2,7 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 using FluentAssertions.Common;
-using FluentAssertions.Execution;
+using FluentAssertions.Equivalency.Execution;
 using ITimer = FluentAssertions.Common.ITimer;
 
 namespace FluentAssertions.Specialized;
